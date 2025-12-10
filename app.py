@@ -4,7 +4,7 @@ import requests
 import pickle
 import time
 
-with open('C://Users//Lakshya//Codes//ml//movie_data.pkl', 'rb') as file:
+with open('C://Users//Medhansh//Codes//ml//movie_data.pkl', 'rb') as file:
     movies, cosine_sim = pickle.load(file)
 
 def get_recommendations(title, cosine_sim=cosine_sim):
